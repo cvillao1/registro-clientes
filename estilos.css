@@ -1,0 +1,90 @@
+/* ----- Estilos Generales de Página ----- */
+body {
+  margin: 0; /* Elimina los márgenes por defecto del navegador */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna y legible */
+  background: linear-gradient(135deg, #17eda5 0%, #f4f8ec 100%); /* Fondo con degradado en diagonal (verde agua a blanco) */
+  display: flex; /* Usa Flexbox para alinear elementos */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana del navegador */
+}
+
+/* ----- Contenedor del Formulario ----- */
+.form-container {
+  background-color: white; /* Fondo blanco del cuadro */
+  padding: 40px; /* Espaciado interno para separar el contenido del borde */
+  border-radius: 15px; /* Bordes redondeados para estética moderna */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar sensación de profundidad */
+  width: 100%; /* Ocupa todo el ancho disponible del contenedor padre */
+  max-width: 500px; /* Limita el ancho máximo del formulario */
+}
+
+/* ----- Título del Formulario ----- */
+h2 {
+  text-align: center; /* Centra el texto */
+  margin-bottom: 30px; /* Espacio inferior entre el título y el formulario */
+  color: #333; /* Color oscuro para buena legibilidad */
+}
+
+/* ----- Grupo de Cada Campo (Etiqueta + Input o Select) ----- */
+.form-group {
+  margin-bottom: 20px; /* Espacio entre cada grupo de entrada */
+}
+
+/* ----- Etiquetas de los Inputs y Selects ----- */
+label {
+  display: block; /* Hace que la etiqueta ocupe toda la línea */
+  margin-bottom: 5px; /* Espacio entre la etiqueta y el campo correspondiente */
+  font-weight: bold; /* Texto en negrita para resaltar */
+  color: #555; /* Color gris oscuro para el texto */
+}
+
+/* ----- Estilo de los Campos de Entrada (Inputs) ----- */
+input {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  padding: 10px; /* Espaciado interno dentro del campo */
+  border: 1px solid #ccc; /* Borde delgado de color gris claro */
+  border-radius: 8px; /* Bordes redondeados suaves */
+  transition: 0.3s; /* Transición suave al cambiar estilo */
+}
+
+/* ----- Efecto al Enfocar un Input ----- */
+input:focus {
+  border-color: #5c9ded; /* Cambia el color del borde al enfocar */
+  outline: none; /* Elimina el borde azul predeterminado del navegador */
+  box-shadow: 0 0 5px rgba(92, 157, 237, 0.5); /* Efecto de resplandor azul alrededor del campo */
+}
+
+/* ----- Estilo del Campo Select (Género) ----- */
+select {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  padding: 10px; /* Espacio interno del campo */
+  border: 1px solid #ccc; /* Borde delgado de color gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  transition: 0.3s; /* Transición suave para efectos visuales */
+}
+
+/* ----- Efecto al Enfocar el Select ----- */
+select:focus {
+  border-color: #5c9ded; /* Color de borde azul al enfocar */
+  outline: none; /* Elimina el contorno predeterminado */
+  box-shadow: 0 0 5px rgba(92, 157, 237, 0.5); /* Efecto brillante azul alrededor del campo */
+}
+
+/* ----- Botón de Enviar ----- */
+button {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  padding: 12px; /* Espaciado interno */
+  background-color: #47f8ab; /* Color de fondo verde claro (moderno) */
+  color: white; /* Color del texto en blanco */
+  border: none; /* Elimina el borde */
+  border-radius: 8px; /* Bordes redondeados para estética */
+  font-size: 16px; /* Tamaño de fuente adecuado para botón */
+  cursor: pointer; /* Cambia el cursor a mano al pasar el ratón */
+  transition: 0.3s; /* Transición suave al hacer hover */
+}
+
+/* ----- Efecto Hover del Botón ----- */
+button:hover {
+  background-color: #3b7dd8; /* Color de fondo azul más fuerte al pasar el ratón */
+}
